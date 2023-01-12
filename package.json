@@ -1,6 +1,6 @@
 {
   "name": "clipboard-ts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "takes TS in your clipboard, transforms it to JS, and puts it back in your clipboard",
   "main": "clipboard-ts.js",
   "bin": {
