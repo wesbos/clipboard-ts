@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node clipboard-ts.js",
-    "update": "npm version patch && npm publish && git push origin main --follow-tags"
+    "update": "git ac 'updates' && npm version patch && npm publish && git push origin main --follow-tags"
   },
   "keywords": [],
   "author": "Wes Bos",
