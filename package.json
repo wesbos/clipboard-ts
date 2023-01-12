@@ -1,6 +1,6 @@
 {
   "name": "clipboard-ts",
-  "version": "clipboard-ts",
+  "version": "0.0.0",
   "description": "takes TS in your clipboard, transforms it to JS, and puts it back in your clipboard",
   "main": "clipboard-ts.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node clipboard-ts.js",
-    "update": "git ac 'updates' && npm version minor && npm publish && git push origin main --follow-tags"
+    "update": "npm version patch && npm publish && git push origin main --follow-tags"
   },
   "keywords": [],
   "author": "Wes Bos",
