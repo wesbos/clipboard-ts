@@ -7,14 +7,14 @@
     "ts-paste-js": "clipboard-ts.js"
   },
   "scripts": {
-    "start": "node clipboard-ts.js"
+    "start": "node clipboard-ts.js",
+    "update": "git ac 'updates' && npm version minor && npm publish && git push origin main --follow-tags"
   },
   "keywords": [],
   "author": "Wes Bos",
   "license": "ISC",
   "dependencies": {
-    "@swc/core": "^1.3.26",
-    "clipboardy": "^3.0.0"
+    "@swc/core": "^1.3.26"
   },
   "type": "module"
 }
