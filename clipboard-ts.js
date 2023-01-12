@@ -7,7 +7,7 @@ async function read(stream) {
   return Buffer.concat(chunks).toString(`utf8`);
 }
 
-const maybeTs = await read(process.stdin);
+const maybeTs = decodeURIComponent(process.argv[2]);
 // This entire file can be removed when npx swc is working on mac M1.
 try {
   const output = transformSync(maybeTs, {
