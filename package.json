@@ -4,7 +4,7 @@
   "description": "takes TS in your clipboard, transforms it to JS, and puts it back in your clipboard",
   "main": "clipboard-ts.js",
   "bin": {
-    "ts-paste-js": "clipboard-ts.js"
+    "clipboard-ts": "clipboard-ts.js"
   },
   "scripts": {
     "start": "node clipboard-ts.js",
