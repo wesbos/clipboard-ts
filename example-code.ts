@@ -1,4 +1,9 @@
 // This function takes a Generic of FoodType
+
+const single: string = 'single';
+const double: string = 'double';
+const backticks: string = `backticks`;
+
 function makeABunchOf<FoodType>(food: FoodType, howMany: number): FoodType[] {
   const foodArray = Array.from({ length: howMany }, () => food);
   return foodArray;

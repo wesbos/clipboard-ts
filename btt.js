@@ -4,7 +4,7 @@ async (clipboardContentString) => {
   }
   const code = encode(clipboardContentString);
   const shellScriptWrapper = {
-    script: `PATH=/usr/local/bin/ /Users/wesbos/Videos/hot-tips/code/clipboard-ts/clipboard-ts.js ${code}`,
+    script: `PATH=/usr/local/bin/ clipboard-ts "${code}"`,
     launchPath: `/bin/zsh`,
   };
 
